@@ -1,0 +1,69 @@
+{
+  "entity_counts": {
+    "communication_device": 13319,
+    "computing_storage_device": 5039,
+    "control_device": 16908,
+    "deployment_location": 11951,
+    "firmware_protocol_parameter": 5702,
+    "management_platform": 5190,
+    "security_authentication_parameter": 3576
+  },
+  "relation_counts": {
+    "communicates-with": 4187,
+    "composed-of": 2830,
+    "configured-with": 8110,
+    "connected-to": 3681,
+    "located-in": 11586
+  },
+  "seed": 20260916,
+  "splits": {
+    "test": {
+      "avg_sentence_length": 44.334210526315786,
+      "documents": 95,
+      "entities": 12326,
+      "long_ratio": 0.3836842105263158,
+      "nested_entity_ratio": 0.15263157894736842,
+      "polysemous_entity_ratio": 0.34578947368421054,
+      "relation_overlap_ratio": 0.5242105263157895,
+      "relations": 6061,
+      "sentences": 1900,
+      "sha1": "c6c652febea5a13e92fd0a230a938e497e8ec4d8"
+    },
+    "train": {
+      "avg_sentence_length": 44.27157894736842,
+      "documents": 332,
+      "entities": 43194,
+      "long_ratio": 0.38766917293233083,
+      "nested_entity_ratio": 0.15669172932330827,
+      "polysemous_entity_ratio": 0.34601503759398494,
+      "relation_overlap_ratio": 0.5240601503759399,
+      "relations": 21301,
+      "sentences": 6650,
+      "sha1": "085f9a6228a2fd23f691d744a95ae74b8c28feed"
+    },
+    "validation": {
+      "avg_sentence_length": 44.38842105263158,
+      "documents": 48,
+      "entities": 6165,
+      "long_ratio": 0.3821052631578947,
+      "nested_entity_ratio": 0.15157894736842106,
+      "polysemous_entity_ratio": 0.3463157894736842,
+      "relation_overlap_ratio": 0.5242105263157895,
+      "relations": 3032,
+      "sentences": 950,
+      "sha1": "8fad32b2f8e45159c2128e0a0a522fcd508fec78"
+    }
+  },
+  "target": {
+    "avg_sentence_length": 41.7,
+    "long_ratio": 0.389,
+    "polysemous_entity_ratio": 0.346,
+    "relation_overlap_ratio": 0.524,
+    "split": {
+      "test": 1900,
+      "train": 6650,
+      "validation": 950
+    }
+  },
+  "total": 9500
+}

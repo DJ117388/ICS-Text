@@ -1,0 +1,18 @@
+{
+  "entity_types": [
+    "control_device",
+    "communication_device",
+    "computing_storage_device",
+    "management_platform",
+    "deployment_location",
+    "firmware_protocol_parameter",
+    "security_authentication_parameter"
+  ],
+  "relation_types": [
+    "connected-to",
+    "communicates-with",
+    "located-in",
+    "composed-of",
+    "configured-with"
+  ]
+}
